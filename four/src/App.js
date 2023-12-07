@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Home from "./Home";
 
 function App() {
   return (
@@ -15,12 +16,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Hello World
+          Learn react From basics  
         </a>
       </header>
+      <Home/>
     </div>
   );
 }
 
 export default App;
-
