@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          kay hall chal React
         </a>
       </header>
     </div>
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+
