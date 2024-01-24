@@ -1,16 +1,24 @@
 import React from "react";
 import { AiFillDelete } from "react-icons/ai";
+import img1 from "../Assets/MacBook.jpeg";
+
 const Cart = () => {
   return (
     <div className="cart">
       <main>
-        <CartItem />
+        <CartItem
+          imgSrc={img1}
+          name={"MacBook"}
+          price={7999}
+          qty={1}
+          id="absc"
+        />
       </main>
       <aside>
         <h2>SubTotal:${2000}</h2>
         <h2>Shipping:${180}</h2>
         <h2>Tax:${220}</h2>
-        <h2>Total:${2300}</h2>
+        <h2>Total:${2400}</h2>
       </aside>
     </div>
   );
